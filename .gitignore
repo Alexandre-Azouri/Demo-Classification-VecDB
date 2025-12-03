@@ -1,0 +1,7 @@
+/__pycache__
+/.venv
+/checkpoints
+/chromadb
+/models/all-MiniLM-L6-v2
+/models/fine_tuned_ticket_embedder
+/models/fine_tuned_ticket_embedder_v[1-4]

@@ -36,6 +36,8 @@ deviendra:
 ```python
 collection = client.get_or_create_collection(name="tickets_label", configuration ={"hnsw": {"space": "cosine"}})
 ```
+Et le modèle sera téléchargé par ChromaDB.
+
 Pour construire le modèle fine tuné, vous pouvez exécuter le fichier `fine-tuning.ipynb` en ayant une version du modèle de base all-MiniLM-L6-v2 dans le dossier models. Une version du modèle est disponible sur ce repo dans le dossier "models".
 
 ## Utilisation

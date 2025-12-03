@@ -8,9 +8,20 @@
 [![Python](https://img.shields.io/badge/Python-v%203.12.3-orange?logo=Python)](https://python.org)
 
 ## Description
-Dans un contexte où le LLM devient malgré lui le solveur universel pour tout problème en langage naturel, une grande partie des clients s'inquiète. Quid des hallucinations, des implications légales ou du budget? Cette démonstration se focalisera sur un outil proche des LLM, l'embedder appliqué à la classification de texte, afin d'éviter l'usage de ces modèles coûteux, lents et hors de notre gouvernance.
+Dans une industrie où le LLM devient malgré lui le solveur universel pour tout problème en langage naturel, une grande partie des clients s'inquiète. Quid des hallucinations, des implications légales ou du budget? Cette démonstration se focalisera sur un outil proche des LLM, l'embedder appliqué à la classification de texte, afin d'éviter l'usage de ces modèles coûteux, lents et hors de notre gouvernance.
 
-Ce repo contient le code démontré durant le devfest Dijon ainsi que quelques ressources utiles comme le code de réentrainement du modèle et le dataset splitté.
+Ce repo contient le code démontré durant le Devfest Dijon ainsi que quelques ressources utiles comme le code de réentrainement du modèle et le dataset splitté.
+
+## Contexte
+Nous nous baserons sur le dataset [IT Service Ticket Classification Dataset](https://www.kaggle.com/datasets/adisongoh/it-service-ticket-classification-dataset) afin de prendre un cas concret dans l'industrie. Il présente des tickets envoyé au service Technique.
+
+Colonnes:
+"Document": contenu du ticket 
+"Topic_group": catégorie du ticket
+
+Catégories: 'Hardware', 'HR Support', 'Access', 'Miscellaneous', 'Storage', 'Purchase', 'Internal Project', 'Administrative rights'
+
+Ce cas est un lieu commun dans l'industrie, le routage rapide des tickets vers le bon service étant crucial dans la rapidité, et donc la réduction de dépense, du traitement des tickets.
 
 ## Prérequis
 
